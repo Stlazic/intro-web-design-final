@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html type="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>The Moon</title>
+        <script src="finalproject.js"></script>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="bgimg">
+            <div class="text">
+                <h1><b>Luna</b></h1>
+            </div>
+        </div>
+
+        <div class="tabs">
+            <button class="tablink" onclick="openTab(event, 'Home')" id="open">Home</button>
+            <button class="tablink" onclick="openTab(event, 'Moon')">The Moon</button>
+            <button class="tablink" onclick="openTab(event, 'lunarNewYear')">Lunar New Year</button>
+            <button class="tablink" onclick="openTab(event, 'Eclipses')">Eclipses</button>
+        </div>
+
+        <div id="Home" class="tabstuff">
+            <h2><b>Home</b></h2>
+            <table>
+                <tr>
+                    <td>
+                        <p> Welcome to a page all about the Moon!
+                        </p>
+                        <p> This is the home page that serves as the 
+                            central hub for any moon related questions you may have.
+                        </p>
+                        <p> Using the tabs up above you can learn all about 
+                            the moon and its affect on our planet! From the Moon
+                            itself and our close ties with it to the Tides and
+                            Eclipses, it's all covered here.
+                        </p>
+                        <br>
+                        <p>Thank you for choosing Slazipedia! Come again soon!!</p>
+                    </td>
+                    <td></td>
+                    <td><img src="images/issmoon.jpg" alt="Moon seen from the ISS" id="iss"></td>
+                </tr>
+                
+            </table>
+            
+            <p> If you're interested in learning more about space and other topics
+                consider checking out the <a href="sun.html">Sun</a> page to learn more about our Star.
+            </p>
+        </div>
+
+        <div id="Moon" class="tabstuff"> 
+            <h2><b>The Moon</b></h2>
+            <table>
+                <tr>
+                    <td>
+                        <img src="images/crescent.jpg" alt="a crescent moon" id="crescent1">
+
+                    </td>
+                    <td>
+                        <p> The Moon. When we look up at the night sky, it is the brightest,
+                            most welcoming face we see. All year the Moon shines brightly, making our
+                            cold, dark nights more bearable. For generations, we have looked
+                            up at the night sky and wondered about the mysteries our sister in
+                            the sky held. The Moon has a massive influence on our planet, from the
+                            tides and the eclipses, to the cultural impact its had on the people on it.
+                            The Moon is one of the most beautiful objects in space
+                            and its right in our back door.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>Moon Facts:</h3>
+                        <ul>
+                            <li>The Moon is approximately 4.53 Billion Years Old, for context the Earth is 4.543 Billion years old.</li>
+                            <li>The Moon is the 5th largest Moon in the Solar System</li>
+                            <li>The latin name for our Moon is Luna (far better if you ask me)</li>
+                            <li>12 people have walked on the Moon while 24 people total have visited it</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <img src="images/stonehedge.jpg" alt="The Moon rising over a mountain range in Utah"> 
+                    </td>
+                   
+                </tr>
+            </table>
+        </div>
+        
+        <div id="lunarNewYear" class="tabstuff">
+            <h2>Lunar New Year</h2>
+            <p> Lunar New Year is the beginning of a calendar year whose months are 
+                moon cycles, based on the lunar calendar or lunisolar calendar. It is
+                celebrated in East Asian cultures as a result of the traditional 
+                lunisolar calendar of China and while each culture follows the same
+                calendar, they each have their own traditions. In Chinese traditon, each
+                lunar new year is associated with an animal that is on rotation every
+                twelve years. The animals are: Goat, Monkey, Rooster, Dog, Pig, Rat, Ox, Tiger,
+                Rabbit, Dragon, Snake, and Horse.
+            </p>
+            <form class="my-form">
+                <div class="form-group">
+                    <label>Please Put your Birth Year in to determine your Zodiac Animal </label>
+                    <input type="text" id="bDay" placeholder="2000...">
+                </div>
+                <input class="button" type="button" value="Zodiac Sign"  onclick="getSign()">
+            </form>
+            <h1 id="result"></h1>
+            <img src="images/signs.jpg" alt="a visual to go along with your Zodiac Sign">
+        </div>
+
+        <div id="Eclipses" class="tabstuff">
+            <h2>Solar and Lunar Eclipses</h2>
+            <p> There are two types of Eclipses: Lunar Eclipses and Solar
+                eclipses. Both are slightly different but they are both as beautiful to look at.
+            </p>
+            <table>
+                <tr>
+                    <td>
+                        <h3>Solar Eclipses:</h3>
+                        <p> Solar Eclipses happen when the Moon
+                            passes between the Sun and the Earth
+                            blocking sunlight for a brief period
+                            of time.</p>
+                        <p>
+                            Since the Earth is so much bigger than the
+                            Moon, the shadow usually covers a very small portion
+                            of the globe. You have to be in a specific
+                            part of the globe to see a solar eclipse. Solar eclipses
+                            are dangerous to look at with your bare eyes because you are
+                            essentially looking straight at the sun. You can still see
+                            the Suns corona peeking behind the Moon and the when it moves
+                            you can see the edge of the Sun.
+                        </p>
+                    </td>
+                    <td><img src="images/solareclipse.jpg" alt="a solar eclipse">
+                        <figcaption>A Solar Eclipse</figcaption>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images/lunareclipse.jpg">
+                        <figcaption>A Lunar Eclipse</figcaption>
+                    </td>
+                    <td>
+                        <h3>Lunar Eclipses:</h3>
+                        <p>Lunar Eclipses happen when the Earth
+                            passes between the sun and the Moon
+                            casting a shadow on the Moon. This shadow
+                            is usually red or orange and its very pretty
+                            to look at.
+                        </p>
+                        <p>
+                            Just like solar eclipses, you need to be
+                            in a very specific part of the globe to see
+                            it happen. As opposed to their brighter counterparts,
+                            you can look at Lunar eclipses with your eyes.
+                            Lunar eclipses are sometimes called Blood Moons
+                            because of their unnaturally red color.
+                            They are this red for the same reason that sunsets
+                            are red, light is being refracted through Earths 
+                            atmosphere.
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <script>document.getElementById("open").click();</script>
+        <footer style="color: whitesmoke; font-family: Georgia, 'Times New Roman', Times, serif;">
+            Copyright &copy; 2021 Slazipedia. All Rights Reserved.</footer>
+        </body>
+    </body>
+
+</html>

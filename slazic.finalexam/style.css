@@ -1,0 +1,209 @@
+body{
+    background-color: #000000;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.text h1{
+    color:#2e4053;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    -webkit-text-stroke: .5px white;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.bgimg{
+    background-image: url(images/phase.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1000px 1000px;
+}
+
+.tabs{
+    border: 2px solid #333;
+    background-color: #333;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.tabs button{
+    background-color: #333; 
+    color: #F4F6F0;
+    border: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+button:hover{
+    background-color: #b1d4e0 ;
+}
+
+button:focus{
+    background-color: #0c2d48;
+}
+
+.tabstuff{
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #333;
+    border-top: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.tabstuff h2{
+    color: #F4F6F0;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bold;
+}
+
+.tabstuff h3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+
+}
+
+.my-form label{
+    display: block;
+}
+
+#result{
+    color: #ee3024;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    width: 25%;
+    
+}
+
+::placeholder{
+    color: black ;
+}
+
+.button{
+    background-color: rgb(134, 131, 131); 
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button:hover{
+    background-color: #b1d4e0;
+}
+
+.button:active{
+    background-color: #0c2d48;
+}
+
+img{
+    height: 355px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+
+}
+
+#iss{
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+#lunarNewYear img{
+    height: 325px;
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*SUN ONLY FROM HERE ON*/
+.bgimg2{
+    background-image: url(images/solarfury.jpg);
+    background-position:center;
+    background-repeat:no-repeat ;
+    background-size: auto;
+}
+
+.tabs2{
+    border: 2px solid #333;
+    background-color: #333;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.tabs2 button{
+    background-color: #333; 
+    color: #F4F6F0;
+    border: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+.tabs2 button:hover{
+    background-color: #f8c471 ;
+}
+
+.tabs2 button:focus{
+    background-color: #ba4a00;
+}
+
+.tabstuff2{
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #333;
+    border-top: none;
+    color:   #e59866 ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    overflow: hidden;
+    font-size: 23px;
+
+}
+
+.tabstuff2 h2{
+    color: #F4F6F0;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.tabstuff2 h3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.pics{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+figcaption{
+    color: #fff;
+}
